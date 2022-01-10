@@ -14,12 +14,9 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Watching Myself Watching dad 
-email:
 description: >- # this means to ignore newlines until "baseurl:"
   As we traverse our world we share time and space with others.
-twitter_username: username
-github_username: username
-minimal_mistakes_skin: default
+minimal_mistakes_skin: neon
 search: true
 
 # Build settings
@@ -30,7 +27,7 @@ permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-unity_dir: watching_yourself
+
 
 include:
   - _pages
@@ -83,4 +80,4 @@ tag_archive:
   type: liquid
   path: /tags/
 
-  minimal_mistakes_skin:  "neon"
+ 
